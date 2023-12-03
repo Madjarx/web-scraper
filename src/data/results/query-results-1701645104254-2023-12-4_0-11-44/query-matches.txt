@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "caesars",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/115616/35eb68be1d.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "caesars"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/110607/da82d1e663.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "betway"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/110459/95e7117327.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "betmgm"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/50767/c6f947ac75.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "bet365"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/86334/e23d73e514.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "hard rock bet"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/130646/4a4d85fad1.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "betrivers"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUktH+DwACOwFqsMp+AwAAAABJRU5ErkJggg==",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "chiefs vs packers odds, predictions & best bets for sunday night football"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/174115/b7f38f79eb.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "bzeebet"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/181452/9b64cd3054.jpeg",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "espn bet michigan promo code bookies: bet anything, get $250 bonus bets tonight"
+    ]
+  },
+  {
+    "keyword": "caesars",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/167734/5207bcc78e.jpeg",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "caesars nfl promo code bookies1000: get $1k first bet bonus for nfl tonight"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/180411/674a751e19.jpeg",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "top nfl betting promos: get massive sign-up bonus for nfl sunday tonight"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/169602/0f242943a8.jpeg",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "fanduel nfl promo code: bet $5, get $150 in bonuses for nfl tonight"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/179607/b75e81127b.jpeg",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "bet365 nfl promo code: get $1k first bet bonus or $150 in bonuses for nfl tonight"
+    ]
+  },
+  {
+    "keyword": "bet",
+    "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/93972/29876c2f98.png",
+    "imageLocation": "https://bookies.com",
+    "matched": [
+      "betiton"
+    ]
+  }
+]

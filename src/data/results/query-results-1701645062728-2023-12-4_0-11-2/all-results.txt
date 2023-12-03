@@ -1,0 +1,6 @@
+{
+  "elapsedTime": "0 minutes 1 seconds",
+  "foundLinks": 0,
+  "links": [],
+  "results": []
+}

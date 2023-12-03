@@ -1,0 +1,10 @@
+{
+  "elapsedTime": "0 minutes 1 seconds",
+  "foundLinks": 0,
+  "keywords": [
+    "bet"
+  ],
+  "websites": [
+    "https://bookies.com"
+  ]
+}

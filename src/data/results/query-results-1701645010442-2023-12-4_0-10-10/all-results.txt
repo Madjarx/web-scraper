@@ -1,0 +1,23 @@
+{
+  "elapsedTime": "0 minutes 1 seconds",
+  "foundLinks": 0,
+  "links": [],
+  "results": [
+    {
+      "keyword": "caesars",
+      "imageSource": "https://www.bookies.com/cdn-cgi/image/w=128,h=57,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/115616/35eb68be1d.png",
+      "imageLocation": "https://bookies.com",
+      "matched": [
+        "caesars"
+      ]
+    },
+    {
+      "keyword": "caesars",
+      "imageSource": "https://www.bookies.com/cdn-cgi/image/w=60,h=,fit=cover,f=auto/https://objects.kaxmedia.com/auto/o/167734/5207bcc78e.jpeg",
+      "imageLocation": "https://bookies.com",
+      "matched": [
+        "caesars nfl promo code bookies1000: get $1k first bet bonus for nfl tonight"
+      ]
+    }
+  ]
+}
