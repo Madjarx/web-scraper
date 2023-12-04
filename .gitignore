@@ -4,8 +4,5 @@ node_modules
 /node_modules
 
 # Ignoring the results
-/results/*
-!/results/.gitignore
-!/results/.gitkeep
-!/src/data/results/.gitkeep
-!/src/data/results/.gitignore
+!./data/results/.gitignore
+!./data/results/.gitkeep
