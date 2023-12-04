@@ -63,8 +63,6 @@ module.exports = class ImageAnalysis {
                     const metaTitle = $(img).data('meta-title')?.toLowerCase();
                     const metaDescription = $(img).data('meta-description')?.toLowerCase();
                     const imageName = path.basename(src)?.toLowerCase();
-                    console.log("heyhey")
-                    console.log(imageName)
                     
                     this.keywords.forEach(keyword => {
                         // const url = this.url.toLowerCase();
