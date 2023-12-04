@@ -56,17 +56,6 @@ async function main() {
     const dirPath = FileHandler.createDirectoryWithTimestamp(path.join(__dirname, process.env.RESULTS_DIR));
     console.log(allResults)
     // TODO: Implement the writes to different files for different queries
-    // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_IMAGES_MATCHES_FILE), JSON.stringify(result.imageResults, null, 2));
-    // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_TEXT_MATCHES_FILE), JSON.stringify(result.textResults, null, 2));
-    // FileHandler.writeToFile(path.join(dirPath, 'query-results.txt'), JSON.stringify(allResults.results, null, 2));
-    // FileHandler.writeToFile(path.join(dirPath, process.env.ALL_RESULTS_FILE), JSON.stringify(allResults, null, 2));
-    // FileHandler.writeToFile(path.join(dirPath, process.env.VISITED_LINKS_FILE), JSON.stringify(allResults.links, null, 2));
-    // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_INFO_FILE), JSON.stringify({
-    //     elapsedTime: allResults.elapsedTime,
-    //     foundLinks: allResults.foundLinks,
-    //     keywords: keywords,
-    //     websites: urls
-    // }, null, 2));
 
     const allResultsData = allResults.map(result => result.results);
     const allLinks = allResults.map(result => result.links);

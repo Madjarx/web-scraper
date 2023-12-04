@@ -33,43 +33,64 @@ module.exports = class ImageAnalysis {
      */
     async analyze() {
         try {
-            const response = await axios.get(this.url);
-            const $ = cheerio.load(response.data);
             const matchingImages = [];
 
-            $('img').each((i, img) => {
-
-                const src = $(img).attr('src');
-                const alt = $(img).attr('alt')?.toLowerCase();
-                const title = $(img).attr('title')?.toLowerCase();
-                const metaTitle = $(img).data('meta-title')?.toLowerCase();
-                const metaDescription = $(img).data('meta-description')?.toLowerCase();
-                const imageName = path.basename(src)?.toLowerCase();
-
+            if (this.url.match(/\.(jpeg|jpg|gif|png)$/i)) {
+                const imageName = path.basename(this.url).toLowerCase();
+    
                 this.keywords.forEach(keyword => {
-                    // const url = this.url.toLowerCase();
-
-                    if ((title && title.includes(keyword)) ||                   // - title
+                    if (imageName.includes(keyword)) {
+                        const output = {
+                            type: 'image-match',
+                            keyword: keyword,
+                            matched: [imageName],
+                            imageSource: this.url,
+                            imageLocation: this.url,
+                        };
+    
+                        matchingImages.push(output);
+                    }
+                });
+            } else {            
+                const response = await axios.get(this.url);
+                const $ = cheerio.load(response.data);
+                
+                $('img').each((i, img) => {
+                    
+                    const src = $(img).attr('src');
+                    const alt = $(img).attr('alt')?.toLowerCase();
+                    const title = $(img).attr('title')?.toLowerCase();
+                    const metaTitle = $(img).data('meta-title')?.toLowerCase();
+                    const metaDescription = $(img).data('meta-description')?.toLowerCase();
+                    const imageName = path.basename(src)?.toLowerCase();
+                    console.log("heyhey")
+                    console.log(imageName)
+                    
+                    this.keywords.forEach(keyword => {
+                        // const url = this.url.toLowerCase();
+                        
+                        if ((title && title.includes(keyword)) ||                   // - title
                         (alt && alt.includes(keyword)) ||                       // - alt
                         // (url && url.includes(keyword)) ||                       // - url
                         (imageName && imageName.includes(keyword)) ||           // - image name (src)
                         (metaTitle && metaTitle.includes(keyword)) ||           // - meta title
                         (metaDescription && metaDescription.includes(keyword))) // - meta description
                         {
-
-                        const output = {
-                            type: 'image-match',
-                            keyword: keyword,
-                            matched: [title, alt, metaTitle, metaDescription, imageName, url].filter(attr => attr && attr.includes(keyword)),
-                            imageSource: src,
-                            imageLocation: this.url,
-                        };
-
-                        matchingImages.push(output);
-                    }
+                            
+                            const output = {
+                                type: 'image-match',
+                                keyword: keyword,
+                                matched: [title, alt, metaTitle, metaDescription, imageName, url].filter(attr => attr && attr.includes(keyword)),
+                                imageSource: src,
+                                imageLocation: this.url,
+                            };
+                            
+                            matchingImages.push(output);
+                        }
+                    });
                 });
-            });
-
+            }
+                
             return matchingImages;
 
         } catch (error) {
@@ -78,3 +99,4 @@ module.exports = class ImageAnalysis {
         }
     }
 };
+
