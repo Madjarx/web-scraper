@@ -1,7 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Class File Handler
+ * 
+ * TODO - make the code prettier
+ */
 module.exports = class FileHandler {
+
     static readLines(filePath) {
         const content = fs.readFileSync(filePath, 'utf-8');
         const lines = content.split(',').map(line => line.trim()).filter(line => line !== '');
@@ -18,7 +24,7 @@ module.exports = class FileHandler {
     }
 
     static createFileWithTimestamp(dir, filename) {
-        // Create the directory if it doesn't exist
+
         fs.mkdirSync(path.resolve(__dirname, dir), { recursive: true });
 
         const timestamp = Date.now();
@@ -30,13 +36,13 @@ module.exports = class FileHandler {
     }
 
     static createDirectoryWithTimestamp(dir) {
-        // Create the directory if it doesn't exist
+
         fs.mkdirSync(path.resolve(__dirname, dir), { recursive: true });
 
         const timestamp = Date.now();
         const date = new Date();
-        const formattedDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}_${date.getHours()}-${date.getMinutes()}-${date.getSeconds()}`;
-        const directoryPath = path.join(dir, `query-results-${timestamp}-${formattedDate}`);
+        const formattedDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}__${date.getHours()}-${date.getMinutes()}-${date.getSeconds()}`;
+        const directoryPath = path.join(dir, `query-results__${timestamp}__${formattedDate}`);
         fs.mkdirSync(path.resolve(__dirname, directoryPath), { recursive: true });
 
         return directoryPath;
