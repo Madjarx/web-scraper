@@ -47,11 +47,11 @@ module.exports = class ImageAnalysis {
                 const imageName = path.basename(src)?.toLowerCase();
 
                 this.keywords.forEach(keyword => {
-                    const url = this.url.toLowerCase();
+                    // const url = this.url.toLowerCase();
 
                     if ((title && title.includes(keyword)) ||                   // - title
                         (alt && alt.includes(keyword)) ||                       // - alt
-                        (url && url.includes(keyword)) ||                       // - url
+                        // (url && url.includes(keyword)) ||                       // - url
                         (imageName && imageName.includes(keyword)) ||           // - image name (src)
                         (metaTitle && metaTitle.includes(keyword)) ||           // - meta title
                         (metaDescription && metaDescription.includes(keyword))) // - meta description
