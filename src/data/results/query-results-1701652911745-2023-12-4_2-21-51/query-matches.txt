@@ -1,0 +1,300 @@
+[
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/04/cropped-A-Z-ALTERATIONS-AA-Rev-02-FinalFile-01-1.png",
+    "imageLocation": "https://az-alterations.com/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2023/08/summer-Hours-300x184.jpg",
+    "imageLocation": "https://az-alterations.com/news/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-300x200.jpg",
+    "imageLocation": "https://az-alterations.com/news/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/05/bridal-alterations.jpg",
+    "imageLocation": "https://az-alterations.com/bridal-alterations/",
+    "matched": [
+      "bridal alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-1220x600.jpg",
+    "imageLocation": "https://az-alterations.com/alterations/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/08/DSC_001-768x511.jpg",
+    "imageLocation": "https://az-alterations.com/alterations/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/08/shutterstock_437727445-768x512.jpg",
+    "imageLocation": "https://az-alterations.com/alterations/",
+    "matched": [
+      "suit jacket alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_2FA5B65F-2516-4697-8EF2-52447A289CD2.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Sharp_02667.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Sharp_02472.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Sharp_01531.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_327258033_923779545488482_8221780964198996344_n.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_COONAN_10.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of a-z alterations",
+      "real bride of a-z alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_image3.jpeg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_327160681_889491825660660_1798304579749667554_n.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/09/frame.png",
+    "imageLocation": "https://az-alterations.com/contact/",
+    "matched": [
+      "qr code a-z alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2023/08/summer-Hours-150x150.jpg",
+    "imageLocation": "https://az-alterations.com/news/halloween-costumes-alteration/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2023/08/summer-Hours-420x280.jpg",
+    "imageLocation": "https://az-alterations.com/news/halloween-costumes-alteration/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-420x280.jpg",
+    "imageLocation": "https://az-alterations.com/news/halloween-costumes-alteration/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2023/08/summer-Hours.jpg",
+    "imageLocation": "https://az-alterations.com/news/summer-hours/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/09/frame-300x300.png",
+    "imageLocation": "https://az-alterations.com/news/lets-get-social/",
+    "matched": [
+      "qr code a-z alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-150x150.jpg",
+    "imageLocation": "https://az-alterations.com/news/lets-get-social/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-1800x760.jpg",
+    "imageLocation": "https://az-alterations.com/news/las-vegas-atelier-officially-open/",
+    "matched": [
+      "dress alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_image2.jpeg",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Sharp_01763.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_12A9C61C-163E-45D3-B7F0-9B09E0A3B6A5.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_6104FEF0-6AEE-445A-81B3-8EAE8564A696.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_35F48B8B-529D-4050-BC9D-E0BFB8F5D4B8.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Sharp_02435.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_Screenshot_20230103_225615.jpg",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_C791A76F-8260-44FA-82C7-61BC3F95E3D7.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/2",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/bridal/thumbs/thumbs_image1.jpeg",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/3",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/gallery/thumbs/thumbs_9DC021F7-44CB-491D-BB9C-61052BF2FBAE.JPG",
+    "imageLocation": "https://az-alterations.com/gallery/nggallery/page/3",
+    "matched": [
+      "real bride of az alterations",
+      "real bride of az alterations"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2023/08/summer-Hours-800x530.jpg",
+    "imageLocation": "https://az-alterations.com/category/news/",
+    "matched": [
+      "a-z alterations & tailoring"
+    ]
+  },
+  {
+    "keyword": "alterations",
+    "imageSource": "https://az-alterations.com/wp-content/uploads/2022/01/shutterstock_2040256691-800x530.jpg",
+    "imageLocation": "https://az-alterations.com/category/news/",
+    "matched": [
+      "dress alterations"
+    ]
+  }
+]

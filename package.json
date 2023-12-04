@@ -18,6 +18,7 @@
     "jest": "^29.7.0"
   },
   "scripts": {
+    "start" : "node src/index.js",
     "test": "jest",
     "test:web-crawler": "jest ./src/__tests__/webCrawler.test.js",
     "test:page-analyzer": "jest ./src/__tests__/pageAnalyzer.test.js"

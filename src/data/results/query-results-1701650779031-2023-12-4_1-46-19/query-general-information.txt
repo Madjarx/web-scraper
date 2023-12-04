@@ -2,7 +2,7 @@
   "elapsedTime": "0 minutes 3 seconds",
   "foundLinks": 20,
   "keywords": [
-    "o nama"
+    "seo"
   ],
   "websites": [
     "https://seosrbija.rs"

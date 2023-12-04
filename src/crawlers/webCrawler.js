@@ -4,6 +4,18 @@ const urlModule = require('url');
 const ImageAnalysis = require('../analyzers/imageAnalyzer');
 const clc = require("cli-color");
 
+
+const instance = axios.create();
+// instance.defaults.timeout = 25000; // Not sure if i need this or not, still to discuss
+
+// instance.interceptors.request.use((config) => {
+//   config.headers['Cache-Control'] = 'no-cache';
+//   config.headers['Pragma'] = 'no-cache';
+//   config.headers['Expires'] = '0';
+//   return config;
+// });
+
+
 module.exports = class WebCrawler {
 
     _baseUrl;
@@ -12,7 +24,7 @@ module.exports = class WebCrawler {
     _allLinks;
     _startTime;
     _keywords; 
-    _results; // Add a _results property
+    _results; 
 
     constructor(baseUrl, keywords) { 
         this._baseUrl = baseUrl;
@@ -21,7 +33,7 @@ module.exports = class WebCrawler {
         this._allLinks = new Set();
         this._startTime = null;
         this._keywords = keywords;
-        this._results = []; // Initialize _results as an empty array
+        this._results = []; 
     }
 
     _normalizeUrl(url) {
@@ -36,13 +48,15 @@ module.exports = class WebCrawler {
 
     async _fetchAndParse(url) {
         try {
-            const response = await axios.get(url);
+            const response = await instance.get(url);
             const $ = cheerio.load(response.data);
             const links = [];
             $('a').each((i, link) => {
                 const href = $(link).attr('href');
-                const absoluteUrl = urlModule.resolve(url, href);
-                links.push(absoluteUrl);
+                if (href && typeof href === 'string') {
+                    const absoluteUrl = urlModule.resolve(url, href);
+                    links.push(absoluteUrl);
+                }
             });
             return links;
         } catch (error) {
