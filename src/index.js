@@ -24,12 +24,13 @@ const enableTextAnalysis = process.env.ENABLE_TEXT_ANALYSIS === 'true' ? true : 
  * Main function implementation
  */
 async function main() {
+    
+    let allResults = [];
 
-    urls.forEach(baseUrl => {
-
+    const crawlPromises = urls.map(async (baseUrl) => {
         const crawler = new WebCrawler(baseUrl, keywords);
 
-        crawler.crawl(enableImageAnalysis, enableTextAnalysis)
+        return crawler.crawl(enableImageAnalysis, enableTextAnalysis)
             .then(result => {
                 console.log(clc.greenBright('Analysis completed successfully!'));
                 console.log(`Script ran for ${result.elapsedTime} and found ${result.foundLinks} links.`);
@@ -37,28 +38,37 @@ async function main() {
                 console.log(`Found ${result.results.length} matching results.`);
                 console.log('Here are the results:', result.results);
 
-                // Create a new directory with a timestamp for the query
-                const dirPath = FileHandler.createDirectoryWithTimestamp(path.join(__dirname, process.env.RESULTS_DIR));
+                // Log the number of matches found
+                console.log(`Found ${result.results.length} matches.`);
 
-                // TODO: Implement the writes to different files for different queries
-                // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_IMAGES_MATCHES_FILE), JSON.stringify(result.imageResults, null, 2));
-                // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_TEXT_MATCHES_FILE), JSON.stringify(result.textResults, null, 2));
-                FileHandler.writeToFile(path.join(dirPath, 'query-results.txt'), JSON.stringify(result.results, null, 2));
-
-                FileHandler.writeToFile(path.join(dirPath, process.env.ALL_RESULTS_FILE), JSON.stringify(result, null, 2));
-                FileHandler.writeToFile(path.join(dirPath, process.env.VISITED_LINKS_FILE), JSON.stringify(result.links, null, 2));
-                FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_INFO_FILE), JSON.stringify({
+                allResults.push({
+                    baseUrl,
+                    results: result.results,
                     elapsedTime: result.elapsedTime,
                     foundLinks: result.foundLinks,
-                    keywords: keywords,
-                    websites: urls
-                }, null, 2));
-
-                console.log(`Results written to ${dirPath}`);
+                    links: result.links
+                });
             });
-    });
-};
+        });
+        
+        await Promise.all(crawlPromises);
 
+        const dirPath = FileHandler.createDirectoryWithTimestamp(path.join(__dirname, process.env.RESULTS_DIR));
+
+        // TODO: Implement the writes to different files for different queries
+        // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_IMAGES_MATCHES_FILE), JSON.stringify(result.imageResults, null, 2));
+        // FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_TEXT_MATCHES_FILE), JSON.stringify(result.textResults, null, 2));
+        FileHandler.writeToFile(path.join(dirPath, 'query-results.txt'), JSON.stringify(result.results, null, 2));
+        FileHandler.writeToFile(path.join(dirPath, process.env.ALL_RESULTS_FILE), JSON.stringify(result, null, 2));
+        FileHandler.writeToFile(path.join(dirPath, process.env.VISITED_LINKS_FILE), JSON.stringify(result.links, null, 2));
+        FileHandler.writeToFile(path.join(dirPath, process.env.QUERY_INFO_FILE), JSON.stringify({
+            elapsedTime: result.elapsedTime,
+            foundLinks: result.foundLinks,
+            keywords: keywords,
+            websites: urls
+        }, null, 2));
+        console.log(`Results written to ${dirPath}`);
+};
 
 /**
  * Main function Execution

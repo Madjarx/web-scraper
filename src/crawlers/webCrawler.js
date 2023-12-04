@@ -59,8 +59,16 @@ module.exports = class WebCrawler {
      * 
      */
     _normalizeUrl(url) {
-        return url.endsWith('/') ? url.slice(0, -1) : url;
-    }
+        let normalizedUrl = url;
+
+        if (normalizedUrl.endsWith('/')) {
+            normalizedUrl = normalizedUrl.slice(0, -1);
+        }
+
+        normalizedUrl = normalizedUrl.split('#')[0];
+    
+        return normalizedUrl;
+    };
 
 
     /**
@@ -123,7 +131,10 @@ module.exports = class WebCrawler {
         /** Crawl the website */
         while (this._queue.length > 0) {
 
-            const url = this._queue.shift();
+            const originalUrl = this._queue.shift();
+            const url = this._normalizeUrl(originalUrl);
+
+            // const url = this._queue.shift();
             // const originalUrl = this._queue.shift();
             // const url = this._normalizeUrl(originalUrl); // normalize the url to avoid stuff like trailing dash interfering with the visited links set 
 

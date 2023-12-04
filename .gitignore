@@ -6,3 +6,5 @@ node_modules
 # Ignoring the results
 !./data/results/.gitignore
 !./data/results/.gitkeep
+!data/results/.gitignore
+
